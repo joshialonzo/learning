@@ -5,16 +5,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/devops.html' %}active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/devops.html">DevOps</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/webdesign.html' %}active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/webdesign.html">Web Design</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/loopback.html' %}active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/loopback.html">Loopback</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/react.html' %}active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/react.html">React</a>
       </li>
     </ul>
