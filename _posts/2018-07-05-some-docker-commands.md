@@ -99,41 +99,6 @@ container_id can be founded by running:
   $ ps -ef
 </kbd>
 
-##### 10. If we need to start a container:
-
-<kbd>
-  $ docker start container_id
-</kbd>
-
-container_id can be founded by running:
-
-<kbd>
-  $ ps -ef
-</kbd>
-
-##### 11. How to delete a container:
-
-<kbd>
-  $ docker container rm container_id
-</kbd>
-
-container_id can be founded by running:
-
-<kbd>
-  $ ps -ef
-</kbd>
-
-##### 11. If we want to see the available images:
-
-<kbd>
-  $ docker image ls
-</kbd>
-
-##### 11. If we want to remove an image:
-
-<kbd>
-  $ docker image rm <image>
-</kbd>
 
 #### References
 * [Docker community documentation](https://www.docker.com/docker-community)
