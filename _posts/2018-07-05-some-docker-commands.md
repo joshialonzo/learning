@@ -95,7 +95,9 @@ Other options are:
 
 <container_id> can be founded by running:
 
-<kbd> $ ps -ef </kbd>
+<kbd>
+  $ ps -ef
+</kbd>
 
 ##### 10. If we need to start a container:
 
