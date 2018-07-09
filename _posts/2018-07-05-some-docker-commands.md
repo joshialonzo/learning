@@ -105,7 +105,9 @@ Other options are:
 
 <container_id> can be founded by running:
 
-<kbd> $ ps -ef </kbd>
+<kbd>
+  $ ps -ef
+</kbd>
 
 ##### 11. How to delete a container:
 
@@ -115,7 +117,9 @@ Other options are:
 
 <container_id> can be founded by running:
 
-<kbd> $ ps -ef </kbd>
+<kbd>
+  $ ps -ef
+</kbd>
 
 ##### 11. If we want to see the available images:
 
