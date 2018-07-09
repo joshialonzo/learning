@@ -84,16 +84,16 @@ Other options are:
 -t: terminal
 
 <kbd>
-  $ docker container exec -it <container_id> /bin/bash
+  $ docker container exec -it container_id /bin/bash
 </kbd>
 
 ##### 10. If we need to stop a container:
 
 <kbd>
-  $ docker stop <container_id>
+  $ docker stop container_id
 </kbd>
 
-<container_id> can be founded by running:
+container_id can be founded by running:
 
 <kbd>
   $ ps -ef
@@ -102,10 +102,10 @@ Other options are:
 ##### 10. If we need to start a container:
 
 <kbd>
-  $ docker start <container_id>
+  $ docker start container_id
 </kbd>
 
-<container_id> can be founded by running:
+container_id can be founded by running:
 
 <kbd>
   $ ps -ef
@@ -114,10 +114,10 @@ Other options are:
 ##### 11. How to delete a container:
 
 <kbd>
-  $ docker container rm <container_id>
+  $ docker container rm container_id
 </kbd>
 
-<container_id> can be founded by running:
+container_id can be founded by running:
 
 <kbd>
   $ ps -ef
